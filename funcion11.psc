@@ -1,3 +1,9 @@
+Funcion c <- ConversionLK ()
+	Escribir "ingrese las libras"; leer l
+	c = l / 2.2046
+	Escribir "la conversion de libras a kilos es: "
+Fin Funcion
+
 Funcion s <- sumaDosNotas ()
 	Escribir "ingrese nota 1: "; leer n1
 	Escribir "ingrese nota 2: "; leer n2
@@ -32,7 +38,7 @@ Algoritmo funcion11
 		2:
 			Escribir sumaDosNotas()
 		3:
-			Escribir notas()
+			Escribir ConversionLK()
 		
 	FinSegun
 	
