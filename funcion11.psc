@@ -1,3 +1,9 @@
+Funcion s <- sumaDosNotas ()
+	Escribir "ingrese nota 1: "; leer n1
+	Escribir "ingrese nota 2: "; leer n2
+	s = n1 + n2
+Fin Funcion
+
 Funcion p <- notas ()
 	escribir sin saltar "cuantas notas son? : "; leer n
 	s = 0
@@ -24,7 +30,7 @@ Algoritmo funcion11
 		1:
 			Escribir notas()
 		2:
-			Escribir notas()
+			Escribir sumaDosNotas()
 		3:
 			Escribir notas()
 		
